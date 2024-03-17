@@ -15,7 +15,7 @@ C:/Game.Development/The WW2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50463
+50235
 Successfully changed project path to: C:/Game.Development/The WW2
 C:/Game.Development/The WW2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Game.Development/The WW2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12216] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1324951358 [EditorId] 1324951358 [Version] 1048832 [Id] WindowsEditor(7,DoubleYou) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17764] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2588906395 [EditorId] 2588906395 [Version] 1048832 [Id] WindowsEditor(7,DoubleYou) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12216] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1324951358 [EditorId] 1324951358 [Version] 1048832 [Id] WindowsEditor(7,DoubleYou) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17764] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2588906395 [EditorId] 2588906395 [Version] 1048832 [Id] WindowsEditor(7,DoubleYou) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 10.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Game.Development/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Game.Development/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Game.Development/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Game.Development/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Game.Development/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Game.Development/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Game.Development/2022.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.011975 seconds.
-- Loaded All Assemblies, in  0.519 seconds
+Registered in 0.009537 seconds.
+- Loaded All Assemblies, in  0.448 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 322 ms
+Android Extension - Scanning For ADB Devices 267 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.841 seconds
-Domain Reload Profiling: 1357ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.679 seconds
+Domain Reload Profiling: 1125ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (217ms)
-		LoadAssemblies (139ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (137ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (213ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (193ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (159ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (841ms)
+	FinalizeReload (680ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (754ms)
+		SetupLoadedEditorAssemblies (609ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (496ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (422ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (176ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 1357ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.848 seconds
-Refreshing native plugins compatible for Editor in 4.00 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.786 seconds
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.150 seconds
-Domain Reload Profiling: 1995ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  0.984 seconds
+Domain Reload Profiling: 1767ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (524ms)
-		LoadAssemblies (379ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (356ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (202ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (187ms)
 			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1151ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (985ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (887ms)
+		SetupLoadedEditorAssemblies (763ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
+			InitializePlatformSupportModulesInManaged (31ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (704ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3289 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (129.7 KB). Loaded Objects now: 3756.
+Unloading 3290 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (129.8 KB). Loaded Objects now: 3757.
 Memory consumption went from 127.3 MB to 127.2 MB.
-Total: 6.804100 ms (FindLiveObjects: 0.421200 ms CreateObjectMapping: 0.140300 ms MarkObjects: 6.074300 ms  DeleteObjects: 0.166300 ms)
+Total: 4.477800 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.092500 ms MarkObjects: 3.947600 ms  DeleteObjects: 0.145300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -188,9 +188,902 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 16764.675306 seconds.
-  path: Assets/PolygonWar/Prefabs/Characters/SM_Char_DeadBody_Gib_Arm_01.prefab
-  artifactKey: Guid(8539df7df7b2cd44181bda5c39ab04c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWar/Prefabs/Characters/SM_Char_DeadBody_Gib_Arm_01.prefab using Guid(8539df7df7b2cd44181bda5c39ab04c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec58627694b1176611e872995f89db87') in 0.174932 seconds
+  Time since last request: 2482.134617 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Wall_02.prefab
+  artifactKey: Guid(3d0148767bef5a649854d2c3472ff3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Wall_02.prefab using Guid(3d0148767bef5a649854d2c3472ff3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223cf651df84095e964958684387b12a') in 0.166000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_City_Footpath_Corner_02.prefab
+  artifactKey: Guid(43c4889610aa9f648b141b3c94d29c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_City_Footpath_Corner_02.prefab using Guid(43c4889610aa9f648b141b3c94d29c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6495f69c2d8b2878022fea24825be4d') in 0.020486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_City_Road_Damaged_01.prefab
+  artifactKey: Guid(1ea7e510cfd269249a3f2401102dd743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_City_Road_Damaged_01.prefab using Guid(1ea7e510cfd269249a3f2401102dd743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf05498755dc470925b613c738eb3ae0') in 0.020799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.344508 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Cloud_03.prefab
+  artifactKey: Guid(6602c72c148ede5469cac111719132e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Cloud_03.prefab using Guid(6602c72c148ede5469cac111719132e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8319cfb268a87d81c7cfb5f0d796710e') in 0.016447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Crater_Multiple_01.prefab
+  artifactKey: Guid(99b663c976210d0498f532ad51e753eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Crater_Multiple_01.prefab using Guid(99b663c976210d0498f532ad51e753eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09206929208f0fcf6a52953018307ce7') in 0.016382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.701025 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Flat_01.prefab
+  artifactKey: Guid(0951a539665e17f4da3a20fda0f94ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Flat_01.prefab using Guid(0951a539665e17f4da3a20fda0f94ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d9e088090730009ef908fcd3e3031b') in 0.015038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Wall_01.prefab
+  artifactKey: Guid(da8a1ae9de2cddb46992a5aef81af353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Wall_01.prefab using Guid(da8a1ae9de2cddb46992a5aef81af353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9664af93afb8ecd19b2046643ef6cd40') in 0.018020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.119003 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Background_01.prefab
+  artifactKey: Guid(81d5e67f332528a44853337c89ca6cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Beach_Background_01.prefab using Guid(81d5e67f332528a44853337c89ca6cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6049c34a4d606c72eb994ac4529d99') in 0.017940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.310657 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Barn_01.prefab
+  artifactKey: Guid(da2fd4315d0abc44799b3fa3981c630f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Barn_01.prefab using Guid(da2fd4315d0abc44799b3fa3981c630f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2f5514fabb479599a1a42ded012c84') in 0.023767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_03.prefab
+  artifactKey: Guid(6cc47390ff7c29a47a48700fae334b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_03.prefab using Guid(6cc47390ff7c29a47a48700fae334b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70afba120200c34e0bc9584b715527f5') in 0.018133 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_Wall_Pillar_01.prefab
+  artifactKey: Guid(0eeb8dcb25757554ab05dd718502bc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_Wall_Pillar_01.prefab using Guid(0eeb8dcb25757554ab05dd718502bc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920980bc3fe437eb8fb0029b08c42c18') in 0.020399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_Wall_01.prefab
+  artifactKey: Guid(740e61d911c34cf408d06c94939c0932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_Wall_01.prefab using Guid(740e61d911c34cf408d06c94939c0932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667f13b712008a6d43182e576da07288') in 0.017828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_Large_Base_01.prefab
+  artifactKey: Guid(1c749c0ba5a535b40b3370f38b268ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Bunker_Large_Base_01.prefab using Guid(1c749c0ba5a535b40b3370f38b268ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70de73f4bef51c02d1e5bba51321d4a') in 0.016572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Camonetting_Tent_02.prefab
+  artifactKey: Guid(7b322e86f05b8464a9e64ab4f08ed85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Camonetting_Tent_02.prefab using Guid(7b322e86f05b8464a9e64ab4f08ed85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d26ab283c1ff567abd4bd4dbbcab2f1') in 0.145475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.762120 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Destroyed_02.prefab
+  artifactKey: Guid(a25052b2d355f0041b988aab3ed006ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Destroyed_02.prefab using Guid(a25052b2d355f0041b988aab3ed006ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932436a9d818838b72426ac3b905dcea') in 0.019305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.080772 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Preset_04.prefab
+  artifactKey: Guid(ebe52ce7ae72f024f811051c4eef949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Preset_04.prefab using Guid(ebe52ce7ae72f024f811051c4eef949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb064b6c3cdac3c0adc183427917618a') in 0.023523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.616265 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Preset_09.prefab
+  artifactKey: Guid(7bdf3f5012392bc44869e52f92eb0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Preset_09.prefab using Guid(7bdf3f5012392bc44869e52f92eb0d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19edd1dde68e16c3f9caf5933a48dd3') in 0.026936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Base_04.prefab
+  artifactKey: Guid(e225d9c36f25ce548831a1d114b44ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Base_04.prefab using Guid(e225d9c36f25ce548831a1d114b44ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142fa29c18dbd7460bfa657fda6dbd9c') in 0.027516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.057532 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Base_05.prefab
+  artifactKey: Guid(40f64985c1d82974897c066c92da6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Base_05.prefab using Guid(40f64985c1d82974897c066c92da6247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f47fe516b71191ae84d411c01f8968') in 0.021364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.002598 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Roof_02.prefab
+  artifactKey: Guid(5f7ca093380764f48b4d6985fb512bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Roof_02.prefab using Guid(5f7ca093380764f48b4d6985fb512bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0c58d3654e70116abaad9ea53b1551') in 0.026105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.672427 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Roof_03.prefab
+  artifactKey: Guid(81bb730cd60150948a7db2202244d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Roof_03.prefab using Guid(81bb730cd60150948a7db2202244d851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d747f3a703293a1ab5647726905a97') in 0.023484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.001847 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Roof_07.prefab
+  artifactKey: Guid(9bf23df73f136ae4eb3d93c21a834219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Roof_07.prefab using Guid(9bf23df73f136ae4eb3d93c21a834219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce5a8f25b6d3dde7ec5aceac02bf0d1') in 0.028586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.171069 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Room_01.prefab
+  artifactKey: Guid(952a0ab669805fb4ebbf293aeb5d52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Room_01.prefab using Guid(952a0ab669805fb4ebbf293aeb5d52c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb47e673da9044233f9d8d5b82a2f158') in 0.019618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.004201 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Room_05.prefab
+  artifactKey: Guid(beafd40b78d56d544843e645ffc2d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Room_05.prefab using Guid(beafd40b78d56d544843e645ffc2d183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd18bb763a9b8bacd69a9bfbce6de3c6') in 0.023098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.088083 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Room_06.prefab
+  artifactKey: Guid(42ca44f1d9081c146ae97ed74ea24d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_City_Section_Room_06.prefab using Guid(42ca44f1d9081c146ae97ed74ea24d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b2c95c041721585e3c2b43ee42948c') in 0.024540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Farm_Shelter_01.prefab
+  artifactKey: Guid(8f360b870af11c842bbca1c27f26073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Farm_Shelter_01.prefab using Guid(8f360b870af11c842bbca1c27f26073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748227b53e4a39b09d72e5583cfcf709') in 0.021828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.150267 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_FarmHouse_01.prefab
+  artifactKey: Guid(f47ef472ac14f384aaaff9449ab591cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_FarmHouse_01.prefab using Guid(f47ef472ac14f384aaaff9449ab591cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa79184448eddf4e5c0c505bdf9ebb9') in 0.018392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.075718 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Shed_01.prefab
+  artifactKey: Guid(ad95478076bd71c489aa9251d57f88f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Shed_01.prefab using Guid(ad95478076bd71c489aa9251d57f88f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce1cce31f7382c76896dca0856e065c') in 0.017671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.234881 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Tent_02.prefab
+  artifactKey: Guid(dc0145332b17be44282720144824c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_Tent_02.prefab using Guid(dc0145332b17be44282720144824c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bd96d13c27091f12e9c6ce8d15264f') in 0.019195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.072019 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_TownHouse_04.prefab
+  artifactKey: Guid(eca6180a22f0ff9488571a5d0700e016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_TownHouse_04.prefab using Guid(eca6180a22f0ff9488571a5d0700e016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9dd1c9869657cd5c906b0347f8b5a1') in 0.026630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_TownHouse_Rubble_02.prefab
+  artifactKey: Guid(9defc40c9e7c72b4fb7326531b705590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_TownHouse_Rubble_02.prefab using Guid(9defc40c9e7c72b4fb7326531b705590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa3a6897f1849764b99dc3ec46f4178') in 0.018402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.059315 seconds.
+  path: Assets/PolygonWar/Prefabs/Buildings/SM_Bld_TownHouse_Shed_01.prefab
+  artifactKey: Guid(ff197ba9948f2ce44bcfb859c89cd1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Buildings/SM_Bld_TownHouse_Shed_01.prefab using Guid(ff197ba9948f2ce44bcfb859c89cd1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2a8ff232ba4322c1d72a3a5e8c3f29') in 0.021789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 266.555409 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Mountains_Grass_02.prefab
+  artifactKey: Guid(5e810c49d37e92a44b1e476f97abca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Mountains_Grass_02.prefab using Guid(5e810c49d37e92a44b1e476f97abca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b329aa86c752d9b640da305acf2487e5') in 0.023185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Mountains_Snow_03.prefab
+  artifactKey: Guid(bd32c1f050fac1e46ae1d7c415024679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Mountains_Snow_03.prefab using Guid(bd32c1f050fac1e46ae1d7c415024679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45587e9ad73cc58ff7a12c08d3b6f2f4') in 0.020836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Pile_Big.prefab
+  artifactKey: Guid(ca87259647845844b8c0d63999f9d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Pile_Big.prefab using Guid(ca87259647845844b8c0d63999f9d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fa03ad9460cf3ed2953b90bdfd5f0f') in 0.023380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Corner_02.prefab
+  artifactKey: Guid(7f5df08ca33c20d48ba07905c28c62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Corner_02.prefab using Guid(7f5df08ca33c20d48ba07905c28c62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d325f1c29a3f63cc8abfc3208ddec5e') in 0.020409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_01.prefab
+  artifactKey: Guid(8fec63db3e943f5428ec7c8049fe62da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_01.prefab using Guid(8fec63db3e943f5428ec7c8049fe62da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36566418d5766497bb8a4fecd443429f') in 0.018197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Straight_01.prefab
+  artifactKey: Guid(d5647639c36df9c4fa6f833ccf7084c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Straight_01.prefab using Guid(d5647639c36df9c4fa6f833ccf7084c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09c3b51c30e54de719c3299737c69d7') in 0.016721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_T_Section_01.prefab
+  artifactKey: Guid(57bd524f4b6c3ae489a86b59ed4c06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_T_Section_01.prefab using Guid(57bd524f4b6c3ae489a86b59ed4c06c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f054be1c8e9c0cc7152b74a5d62c61') in 0.018290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Stone_01.prefab
+  artifactKey: Guid(9a910e0be82b5434eba70fad68b1f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Stone_01.prefab using Guid(9a910e0be82b5434eba70fad68b1f10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3879251a7d1e27469a68116177d6b44f') in 0.027561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_02.prefab
+  artifactKey: Guid(93d875a16d858ba429b9f301ebda0e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Road_Dirt_Swerve_02.prefab using Guid(93d875a16d858ba429b9f301ebda0e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aee9a820af1b26a1cfd20f3069a5ed1') in 0.017549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Pile.prefab
+  artifactKey: Guid(84c9f99decdc5cc4d8cdcfb2aec3b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Pile.prefab using Guid(84c9f99decdc5cc4d8cdcfb2aec3b0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ffa38ebaa1a52883d5446877da5bf7') in 0.017597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_RiverSide_01.prefab
+  artifactKey: Guid(5563de76c8ae1214ca5e04db7003822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_RiverSide_01.prefab using Guid(5563de76c8ae1214ca5e04db7003822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72494e3ef044bbe65d89678abe408c72') in 0.017391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Mountains_Snow_02.prefab
+  artifactKey: Guid(920898e67c1973043ad74a9a620932d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Mountains_Snow_02.prefab using Guid(920898e67c1973043ad74a9a620932d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79a4fd7cc245997efe6642a4100e21a') in 0.019111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Pile_01.prefab
+  artifactKey: Guid(cddb4418665888940979528407839723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Rubble_Pile_01.prefab using Guid(cddb4418665888940979528407839723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8060442967fb0c5ff6fcec799f296bc4') in 0.019785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 13.172184 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Crater_Multiple_03.prefab
+  artifactKey: Guid(ae5715ea6f97cc94c852ca2cb1fbbe3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Crater_Multiple_03.prefab using Guid(ae5715ea6f97cc94c852ca2cb1fbbe3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4759546af1ca94fdf812f566c9dc3386') in 0.016968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Dirt_Mound_Large_01.prefab
+  artifactKey: Guid(b7dae65634e0b4b4ba4a8d8c5efa4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Dirt_Mound_Large_01.prefab using Guid(b7dae65634e0b4b4ba4a8d8c5efa4206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698f9c649ae80e3f4020546b1df2b143') in 0.016617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.367140 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Dirt_Mound_Small_01.prefab
+  artifactKey: Guid(c548a46ea7afbd943a68e3f029864b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Dirt_Mound_Small_01.prefab using Guid(c548a46ea7afbd943a68e3f029864b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e12786a5b74f808cb695aaff879b207') in 0.017448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_FarmRows_02.prefab
+  artifactKey: Guid(80893f77b874eba4ebf60f53719c046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_FarmRows_02.prefab using Guid(80893f77b874eba4ebf60f53719c046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef750cbc9eb5d44ec77c857ffc23bad') in 0.016439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.038071 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Grass_01.prefab
+  artifactKey: Guid(b7c837c7a353568418f5f30dcd560a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Grass_01.prefab using Guid(b7c837c7a353568418f5f30dcd560a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ff4fc2523703c8245ab174385558bc') in 0.019383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.934235 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Hedge_01.prefab
+  artifactKey: Guid(7edd3a934a8e3c3409f95e98c82c5296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Hedge_01.prefab using Guid(7edd3a934a8e3c3409f95e98c82c5296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e166c29118c8a3a9f2bbca15af7ed') in 0.019108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.022923 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Hedge_Bush_04.prefab
+  artifactKey: Guid(fcf70fbbea877ee45a0aee0dc4effd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Hedge_Bush_04.prefab using Guid(fcf70fbbea877ee45a0aee0dc4effd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877e6b161e464f1b151edfa92d112901') in 0.022306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.759614 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Runway_02.prefab
+  artifactKey: Guid(8c08b293dcdca60428849fdfeae5f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Runway_02.prefab using Guid(8c08b293dcdca60428849fdfeae5f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3ef945e33471820358b5c10638f849') in 0.020715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.023432 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Sandbag_05.prefab
+  artifactKey: Guid(51464e1ed177b0947815aa169a3664dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Sandbag_05.prefab using Guid(51464e1ed177b0947815aa169a3664dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f5fd222adcef0dcf2eabcbd058acc5') in 0.026448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.015598 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Sandbag_Wall_Curved_01.prefab
+  artifactKey: Guid(d7b364863728a3d48b2026cacbe7c126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Sandbag_Wall_Curved_01.prefab using Guid(d7b364863728a3d48b2026cacbe7c126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd957317d40c0bca5617eb0b7680dc18') in 0.018358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_StoneWall_03.prefab
+  artifactKey: Guid(a59634479a2759f4c8cf30a6228a70f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_StoneWall_03.prefab using Guid(a59634479a2759f4c8cf30a6228a70f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b5657ddba5db1c61cdc0033efb45b2') in 0.021673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_StoneWall_Corner_01.prefab
+  artifactKey: Guid(85c7b26b02c94d24ab07b617f7ab4d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_StoneWall_Corner_01.prefab using Guid(85c7b26b02c94d24ab07b617f7ab4d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c495c0287896de278c12060f45833') in 0.028507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.369116 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_StoneWall_Rubble_03.prefab
+  artifactKey: Guid(011da492acc23ee4cb9f34df5235e47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_StoneWall_Rubble_03.prefab using Guid(011da492acc23ee4cb9f34df5235e47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e544fbc3e90eeeb87438a2d074db0ad') in 0.028407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_01.prefab
+  artifactKey: Guid(d295338eb2193c14f9feb82d278c826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_01.prefab using Guid(d295338eb2193c14f9feb82d278c826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c292906baa725255473524eb0ea0ea') in 0.019589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.024854 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Background_Patch_04.prefab
+  artifactKey: Guid(cc22510d99ae1e248991db15ef540da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Background_Patch_04.prefab using Guid(cc22510d99ae1e248991db15ef540da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4893abe7cd233f32488e8e7b556f4eca') in 0.020365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.538 seconds
+Refreshing native plugins compatible for Editor in 3.70 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.418 seconds
+Domain Reload Profiling: 1953ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (702ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (101.8 KB). Loaded Objects now: 3779.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 4.169600 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.095600 ms MarkObjects: 3.736300 ms  DeleteObjects: 0.064600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.208 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.581 seconds
+Domain Reload Profiling: 2785ms
+	BeginReloadAssembly (488ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (229ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (708ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (868ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (676ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (101.9 KB). Loaded Objects now: 3794.
+Memory consumption went from 125.0 MB to 124.9 MB.
+Total: 5.031600 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.096700 ms MarkObjects: 4.522600 ms  DeleteObjects: 0.085100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.761 seconds
+Refreshing native plugins compatible for Editor in 5.16 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.473 seconds
+Domain Reload Profiling: 2231ms
+	BeginReloadAssembly (345ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (516ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1474ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (626ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (101.8 KB). Loaded Objects now: 3809.
+Memory consumption went from 125.0 MB to 124.9 MB.
+Total: 4.616900 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.097600 ms MarkObjects: 4.156200 ms  DeleteObjects: 0.069600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.453 seconds
+Domain Reload Profiling: 2175ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (34ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (626ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3280 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (101.8 KB). Loaded Objects now: 3824.
+Memory consumption went from 125.0 MB to 124.9 MB.
+Total: 4.768300 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.096500 ms MarkObjects: 4.282700 ms  DeleteObjects: 0.071000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12238.000099 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Pine_02.prefab
+  artifactKey: Guid(f79ea884aeb890f479a018d1f350fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Pine_02.prefab using Guid(f79ea884aeb890f479a018d1f350fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3abce7da35ff3671f117414d03ae5e') in 0.181416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shard_02.prefab
+  artifactKey: Guid(fc9f472990fc58246a3499fab98e6f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shard_02.prefab using Guid(fc9f472990fc58246a3499fab98e6f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0875917d8dc077705593897fb12e8a4') in 0.033885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Corner_01.prefab
+  artifactKey: Guid(5864a21e78f70f246a5339d1cb1fca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Corner_01.prefab using Guid(5864a21e78f70f246a5339d1cb1fca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506413925df2365fa641c539e36b2c52') in 0.025094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shards_01.prefab
+  artifactKey: Guid(4ca6eb08ab36dc5498b5fd49469db1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shards_01.prefab using Guid(4ca6eb08ab36dc5498b5fd49469db1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfa2fb166c341bace0c15999ac93465') in 0.022924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Bridge_01.prefab
+  artifactKey: Guid(60d9475353b272246b51704ada008280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Bridge_01.prefab using Guid(60d9475353b272246b51704ada008280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad2d5b4d24d904494a43281c0dacc98') in 0.029690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Planks_04.prefab
+  artifactKey: Guid(5e0ecc9ac8299c8438642b436c340b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Planks_04.prefab using Guid(5e0ecc9ac8299c8438642b436c340b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9659fc7cf82106c1e5f7ea445a4d4f') in 0.021762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shard_01.prefab
+  artifactKey: Guid(ed907c00317fff248ac6712aac3b76be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shard_01.prefab using Guid(ed907c00317fff248ac6712aac3b76be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e700c3e3769d83c7d3d4c57f6cedf56') in 0.030105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shards_03.prefab
+  artifactKey: Guid(52c4de25295c5134cac5daf0a6df57c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shards_03.prefab using Guid(52c4de25295c5134cac5daf0a6df57c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b395565432346ac56482ed22a4c38c2') in 0.042467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Planks_05.prefab
+  artifactKey: Guid(46b3f1bd465ad5f488931d427a9fac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Planks_05.prefab using Guid(46b3f1bd465ad5f488931d427a9fac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d2b53e324b53c4b0521c6736b73833') in 0.022335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Planks_02.prefab
+  artifactKey: Guid(dae77718364afd645b1d6ba35ff2af00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Planks_02.prefab using Guid(dae77718364afd645b1d6ba35ff2af00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf0dcdf7eeaad76c05fb5a75a407da3') in 0.023289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shard_03.prefab
+  artifactKey: Guid(95c6ae481b020c0409c7743ae9017530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shard_03.prefab using Guid(95c6ae481b020c0409c7743ae9017530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe25b1ea33bc31b009cd7b065b79a610') in 0.030671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shards_02.prefab
+  artifactKey: Guid(13fefa5304907274b991470cef966ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Shards_02.prefab using Guid(13fefa5304907274b991470cef966ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b4fcce5a911062c06f8a0c3b3fc0e6') in 0.021109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Shallow_Intersection_01.prefab
+  artifactKey: Guid(5951d1d60d85340459f0480c192a10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Shallow_Intersection_01.prefab using Guid(5951d1d60d85340459f0480c192a10dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c222764c368bcc546313ec6ed5d85d71') in 0.029404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Pit_01.prefab
+  artifactKey: Guid(f2b4867805b597240a65f8ea5a82c95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Trench_Pit_01.prefab using Guid(f2b4867805b597240a65f8ea5a82c95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d22d371ca68088f85b0cf3cbc4e424a') in 0.025008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.368752 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Destroyed_02.prefab
+  artifactKey: Guid(599e52ef846a7e244bcc1e64fbf86043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Destroyed_02.prefab using Guid(599e52ef846a7e244bcc1e64fbf86043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87238acdf6171a717cee7e884b92873') in 0.030315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Destroyed_03.prefab
+  artifactKey: Guid(ca52111c876fcb04fb34d74803ac463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Destroyed_03.prefab using Guid(ca52111c876fcb04fb34d74803ac463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf2fc323f3f5320fcf0eaa78a3f5c1d') in 0.052196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.115273 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Dead_01.prefab
+  artifactKey: Guid(db559705b9061694eb0ae8170f783a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Dead_01.prefab using Guid(db559705b9061694eb0ae8170f783a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c835f90099d2b2d89261d157436fdc') in 0.022539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Dead_03.prefab
+  artifactKey: Guid(9e5f6cdd25a316442982ee2a3c5dc122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWar/Prefabs/Environments/SM_Env_Tree_Dead_03.prefab using Guid(9e5f6cdd25a316442982ee2a3c5dc122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ad1ff515bf1af725e7d12ff524c982') in 0.024756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
