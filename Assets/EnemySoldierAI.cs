@@ -18,10 +18,10 @@ public class EnemySoldierAI : MonoBehaviour
 
     void Update()
     {
-        if (unitsPotition.CompareTag("AllySoldier") <= enemyDistance)
-        {
+        //if (unitsPotition.CompareTag("AllySoldier") <= enemyDistance)
+        //{
 
-        }
+        //}
     }
     
     

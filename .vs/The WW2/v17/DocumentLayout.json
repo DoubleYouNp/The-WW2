@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Assets\\EnemySoldierAI.cs",
               "ToolTip": "C:\\Game.Development\\The WW2\\Assets\\EnemySoldierAI.cs",
               "RelativeToolTip": "Assets\\EnemySoldierAI.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBkAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T13:52:44.581Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Assets\\SoldierScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T16:54:06.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T16:54:06.633Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Assets\\TankScript.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:15:59.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-02T13:15:59.296Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Assets\\CannonShot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T20:26:42.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-27T20:26:42.151Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Assets\\CamScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T15:16:15.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T15:16:15.402Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Assets\\BarrelScript.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T14:04:07.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T14:04:07.175Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Assets\\TurretRotation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T13:58:58.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-22T13:58:58.517Z"
             }
           ]
         }
