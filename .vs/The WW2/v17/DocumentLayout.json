@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Game.Development\\The WW2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\camscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\camscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|c:\\game.development\\the ww2\\assets\\enemysoldierai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\enemysoldierai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|c:\\game.development\\the ww2\\assets\\cannonshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\cannonshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\soldierscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\soldierscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\tankscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\tankscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\barrelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\barrelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\cannonshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\cannonshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\soldierscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\soldierscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\camscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\camscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\barrelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|solutionrelative:assets\\barrelscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFCD03B7-7E00-C69A-B84D-63EFB03B6D26}|Assembly-CSharp.csproj|C:\\Game.Development\\The WW2\\assets\\turretrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemySoldierAI.cs",
+              "DocumentMoniker": "C:\\Game.Development\\The WW2\\Assets\\EnemySoldierAI.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemySoldierAI.cs",
+              "ToolTip": "C:\\Game.Development\\The WW2\\Assets\\EnemySoldierAI.cs",
+              "RelativeToolTip": "Assets\\EnemySoldierAI.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T13:52:44.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoldierScript.cs",
+              "DocumentMoniker": "C:\\Game.Development\\The WW2\\Assets\\SoldierScript.cs",
+              "RelativeDocumentMoniker": "Assets\\SoldierScript.cs",
+              "ToolTip": "C:\\Game.Development\\The WW2\\Assets\\SoldierScript.cs",
+              "RelativeToolTip": "Assets\\SoldierScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T16:54:06.633Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -44,13 +74,14 @@
               "RelativeDocumentMoniker": "Assets\\TankScript.cs",
               "ToolTip": "C:\\Game.Development\\The WW2\\Assets\\TankScript.cs",
               "RelativeToolTip": "Assets\\TankScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T13:15:59.296Z"
+              "WhenOpened": "2024-03-02T13:15:59.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CannonShot.cs",
               "DocumentMoniker": "C:\\Game.Development\\The WW2\\Assets\\CannonShot.cs",
               "RelativeDocumentMoniker": "Assets\\CannonShot.cs",
@@ -64,31 +95,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SoldierScript.cs",
-              "DocumentMoniker": "C:\\Game.Development\\The WW2\\Assets\\SoldierScript.cs",
-              "RelativeDocumentMoniker": "Assets\\SoldierScript.cs",
-              "ToolTip": "C:\\Game.Development\\The WW2\\Assets\\SoldierScript.cs",
-              "RelativeToolTip": "Assets\\SoldierScript.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T16:54:06.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CamScript.cs",
               "DocumentMoniker": "C:\\Game.Development\\The WW2\\Assets\\CamScript.cs",
               "RelativeDocumentMoniker": "Assets\\CamScript.cs",
-              "ToolTip": "C:\\Game.Development\\The WW2\\Assets\\CamScript.cs*",
-              "RelativeToolTip": "Assets\\CamScript.cs*",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAABMAAAAEAAAA",
+              "ToolTip": "C:\\Game.Development\\The WW2\\Assets\\CamScript.cs",
+              "RelativeToolTip": "Assets\\CamScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-22T15:16:15.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "BarrelScript.cs",
               "DocumentMoniker": "C:\\Game.Development\\The WW2\\Assets\\BarrelScript.cs",
               "RelativeDocumentMoniker": "Assets\\BarrelScript.cs",
@@ -96,11 +115,12 @@
               "RelativeToolTip": "Assets\\BarrelScript.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T14:04:07.175Z"
+              "WhenOpened": "2024-02-22T14:04:07.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TurretRotation.cs",
               "DocumentMoniker": "C:\\Game.Development\\The WW2\\Assets\\TurretRotation.cs",
               "RelativeDocumentMoniker": "Assets\\TurretRotation.cs",
@@ -108,7 +128,8 @@
               "RelativeToolTip": "Assets\\TurretRotation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T13:58:58.517Z"
+              "WhenOpened": "2024-02-22T13:58:58.517Z",
+              "EditorCaption": ""
             }
           ]
         }

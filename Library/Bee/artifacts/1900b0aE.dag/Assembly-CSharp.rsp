@@ -364,6 +364,7 @@
 "Assets/BarrelScript.cs"
 "Assets/CamScript.cs"
 "Assets/CannonShot.cs"
+"Assets/EnemySoldierAI.cs"
 "Assets/SoldierScript.cs"
 "Assets/TankScript.cs"
 "Assets/TurretRotation.cs"

@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - GermanSoldier
+  - GermanTank
+  - Cover
+  - AllyTank
+  - AllySoldier
+  - Vaultable
+  - Grass
+  - Dirt
+  - Concrete
+  - Building
   layers:
   - Default
   - TransparentFX
